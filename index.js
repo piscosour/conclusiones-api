@@ -15,7 +15,7 @@ app.get('/getsecciones', function(req, res) {
 		};
 	});
 });
-hello
+
 app.get('/getconclusiones', function(req, res) {
 	firebase.database().ref('/conclusiones/').orderByKey().once('value').then(function(snapshot) {
 		if (snapshot.val()) {
