@@ -1,0 +1,17 @@
+{
+  "name": "conclusiones-api",
+  "version": "0.0.1",
+  "description": "Backend API para mostrar las conclusiones de la CVR",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "monitor": "nodemon index.js",
+    "deploy": "gcloud app deploy"
+  },
+  "author": "Eduardo Marisca (eduardo@marisca.pe)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "firebase": "^3.2.1"
+  }
+}
